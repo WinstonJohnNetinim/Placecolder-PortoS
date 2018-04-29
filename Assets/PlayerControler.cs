@@ -12,7 +12,6 @@ public class PlayerControler : MonoBehaviour
 	private Collider2D playerCollider;
 
 	private Animator playerAnimator;
-	public AudioClip jumpSFX;
 
 
 	public bool grounded;
