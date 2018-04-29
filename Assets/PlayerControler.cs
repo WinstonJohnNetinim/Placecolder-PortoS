@@ -11,7 +11,6 @@ public class PlayerControler : MonoBehaviour
 	public float jumpSpeed;
 	private Collider2D playerCollider;
 
-	private Animator playerAnimator;
 
 
 	public bool grounded;
@@ -23,7 +22,6 @@ public class PlayerControler : MonoBehaviour
 		
 		rb = GetComponent<Rigidbody2D> ();
 		playerCollider = GetComponent<Collider2D> ();
-		playerAnimator = GetComponent <Animator> ();
 	}
 		
 	
@@ -72,8 +70,6 @@ public class PlayerControler : MonoBehaviour
 		}
 
 		//animator
-		playerAnimator.SetFloat ("Speed", rb.velocity.x);
-		playerAnimator.SetBool ("Grounded", grounded);
 
 
 	}
