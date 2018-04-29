@@ -155,7 +155,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 544db5edfa360f047b22a23c7c2bcb7e, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
 --- !u!1001 &847456423
+=======
+--- !u!1001 &507830689
+>>>>>>> 487607aa610bdb608a08a2380159669480ac3ec1
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -164,6 +168,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4047818867211318, guid: 544db5edfa360f047b22a23c7c2bcb7e, type: 2}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 43.32
       objectReference: {fileID: 0}
     - target: {fileID: 4047818867211318, guid: 544db5edfa360f047b22a23c7c2bcb7e, type: 2}
@@ -215,6 +220,13 @@ Prefab:
     - target: {fileID: 4047818867211318, guid: 544db5edfa360f047b22a23c7c2bcb7e, type: 2}
       propertyPath: m_LocalPosition.y
       value: -1.54
+=======
+      value: 15.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047818867211318, guid: 544db5edfa360f047b22a23c7c2bcb7e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.54
+>>>>>>> 487607aa610bdb608a08a2380159669480ac3ec1
       objectReference: {fileID: 0}
     - target: {fileID: 4047818867211318, guid: 544db5edfa360f047b22a23c7c2bcb7e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -557,7 +569,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2099907599
 BoxCollider2D:
   m_ObjectHideFlags: 0
