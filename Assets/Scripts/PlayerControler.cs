@@ -42,23 +42,24 @@ public class PlayerControler : MonoBehaviour
 			);
 		}*/
 
+
 		//adiciona velocidade no eixo x
 		rb.velocity = new Vector2 (speed, rb.velocity.y);
 
 
 		//pulo do jogador
-		if (Input.GetKeyDown (KeyCode.W))
+		if (Input.GetKeyDown (KeyCode.W)) 
 		{
 
 
 			//AudioSource.PlayClipAtPoint (jumpSFX, gameObject.transform.position);
 	
 
-			if (grounded)
-			{
+			if (grounded) {
 				rb.velocity = new Vector2 (rb.velocity.x, jumpSpeed);
 			}
 
+		}
 	
 			//descendo da plataforma
 			if (Input.GetKeyDown (KeyCode.S)) 
@@ -67,7 +68,7 @@ public class PlayerControler : MonoBehaviour
 				OverPlatform ();
 
 			}
-		}
+		
 
 		//animator
 
