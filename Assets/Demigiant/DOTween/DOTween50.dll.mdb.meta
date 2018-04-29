@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Demigiant/DOTween/DOTween50.dll.mdb.meta
 guid: a0b75ae6174222247a9bc1cf7fa97e5d
 timeCreated: 1524980881
+=======
+guid: 29526526068b2a144a466b74c4042cd0
+timeCreated: 1524980961
+>>>>>>> 520acfb86988a81c32bb5185fc2f40e321abac66:Assets/Demigiant/DOTween/DOTween50.dll.mdb.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
