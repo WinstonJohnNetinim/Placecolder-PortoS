@@ -39,6 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2198906781
+    locked: 0
+  - name: BackPlataforms
+    uniqueID: 168645665
+    locked: 0
+  - name: Plataforms
+    uniqueID: 370083839
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 1760099259
+    locked: 0
+  - name: Foreground
+    uniqueID: 2712114005
     locked: 0
